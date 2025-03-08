@@ -8,8 +8,11 @@ int main() {
     // Nível Novato - Movimentação das Peças
     // Sugestão: Declare variáveis constantes para representar o número de casas que cada peça pode se mover.
     
-    moverTorre = 5;
+    for (int i = 0; i > 5; i++){
+        printf("Direita\n");
+    }
 
+   
 
 
     // Implementação de Movimentação do Bispo
