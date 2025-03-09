@@ -7,12 +7,12 @@
 int main() {
     // Nível Novato - Movimentação das Peças
     // Sugestão: Declare variáveis constantes para representar o número de casas que cada peça pode se mover.
-    
-    for (int i = 0; i > 5; i++){
+    printf("Torre: \n");
+    for (int i = 0; i < 5; i++){
         printf("Direita\n");
     }
 
-   
+   return 0;
 
 
     // Implementação de Movimentação do Bispo
@@ -34,6 +34,4 @@ int main() {
 
     // Sugestão: Implemente a movimentação do Cavalo utilizando loops com variáveis múltiplas e condições avançadas.
     // Inclua o uso de continue e break dentro dos loops.
-
-    return 0;
 }
