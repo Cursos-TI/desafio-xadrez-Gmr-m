@@ -14,11 +14,7 @@ int main() {
 
     printf("Bispo: \n");
     for (int x = 0; x < 5; x++){
-        printf("Direita\n");
-    }
-
-    for (int y = 0; y <  5; y++){
-        printf("Cima\n");
+        printf("Cima, Direita\n");
     }
 
     printf("Rainha\n");
