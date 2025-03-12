@@ -22,7 +22,19 @@ int main() {
     {
         printf("Esquerda\n");
     }
-    
+
+    printf("Cavalo\n");
+    for ( int x = 0; x < 1; x++)
+    {
+        int y = 0;
+        while ( y < 2)
+        {
+            printf("Baixo\n");
+            y++;
+        }
+        printf("Esquerda");    
+    }
+        
 
     // Implementação de Movimentação do Bispo
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
