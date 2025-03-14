@@ -15,7 +15,28 @@ void moverBispo(){
     for (int x = 0; x < 5; x++){
         printf("Cima, Direita\n");
     }
-}
+};
+
+void moverRainha(){
+    for (int x = 0; x < 8; x++)
+    {
+        printf("Esquerda\n");
+    }
+
+};
+
+void moverCavalo(){
+    for ( int x = 0; x < 1; x++)
+    {
+        int y = 0;
+        while ( y < 2)
+        {
+            printf("Baixo\n");
+            y++;
+        }
+        printf("Esquerda\n");    
+    }
+};
 
 int main() {
 
@@ -41,31 +62,14 @@ int main() {
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
 
     printf("\nRainha: \n");
-    for (int x = 0; x < 8; x++)
-    {
-        printf("Esquerda\n");
-    }
-
+    moverRainha();
+    
     // Nível Aventureiro - Movimentação do Cavalo
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
     // Um loop pode representar a movimentação horizontal e outro vertical.
     
     printf("\nCavalo: \n");
-    for ( int x = 0; x < 1; x++)
-    {
-        int y = 0;
-        while ( y < 2)
-        {
-            printf("Baixo\n");
-            y++;
-        }
-        printf("Esquerda\n");    
-    }
-        
-
-    
-
-
+    moverCavalo();
     
 
     // Nível Mestre - Funções Recursivas e Loops Aninhados
