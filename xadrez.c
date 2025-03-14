@@ -12,12 +12,19 @@ void moverTorre(){
 };
 
 void moverBispo(){
+
     for (int x = 0; x < 5; x++){
-        printf("Cima, Direita\n");
+        printf("Cima\n");
+        
+        for (int y = 0; y < 5; y++){
+            printf("Direita\n");
+        }
+        
     }
 };
 
 void moverRainha(){
+
     for (int x = 0; x < 8; x++)
     {
         printf("Esquerda\n");
@@ -26,6 +33,7 @@ void moverRainha(){
 };
 
 void moverCavalo(){
+
     for ( int x = 0; x < 1; x++)
     {
         int y = 0;
