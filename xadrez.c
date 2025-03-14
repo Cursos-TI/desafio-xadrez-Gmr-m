@@ -11,6 +11,12 @@ void moverTorre(){
 
 };
 
+void moverBispo(){
+    for (int x = 0; x < 5; x++){
+        printf("Cima, Direita\n");
+    }
+}
+
 int main() {
 
     // Nível Novato - Movimentação das Peças
@@ -28,9 +34,8 @@ int main() {
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
 
     printf("\nBispo: \n");
-    for (int x = 0; x < 5; x++){
-        printf("Cima, Direita\n");
-    }
+    moverBispo();
+    
 
     // Implementação de Movimentação da Rainha
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
