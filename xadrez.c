@@ -16,7 +16,7 @@ void moverBispo(){
     for (int x = 0; x < 5; x++){
         printf("Cima\n");
         
-        for (int y = 0; y < 5; y++){
+        for (int y = 0; y < 1; y++){
             printf("Direita\n");
         }
         
